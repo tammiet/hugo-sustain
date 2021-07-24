@@ -77,6 +77,12 @@ html, body {
   text-align: center;
 }
 
+#about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container a {
   color: #27a822;
   text-decoration: none;
@@ -160,6 +166,11 @@ h5 a:hover {
 
 .avatar {
   padding-top: 8vh;
+  width: 11em;
+}
+
+.avatar img.rounded-circle {
+  width: inherit;
 }
 
 .blog-title {
