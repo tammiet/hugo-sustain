@@ -84,6 +84,11 @@ html, body {
 
 .container a {
   text-decoration: none;
+  color:darkcyan;
+}
+
+.navbar a {
+  color:#6b6b6b;
 }
 
 .container p img,
